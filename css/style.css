@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif;
   color: #171717;
-  background: #f7f5f0;
+  background: #ffffff;
   line-height: 1.7;
 }
 
@@ -42,7 +42,7 @@ img {
 }
 
 .logo {
-  color: #d7b56d;
+  color: #F05454;
   font-weight: 800;
   letter-spacing: 3px;
   line-height: 1;
@@ -68,7 +68,7 @@ img {
 }
 
 .nav a:hover {
-  color: #d7b56d;
+  color: #F05454;
 }
 
 .hero {
@@ -95,7 +95,7 @@ img {
 }
 
 .role {
-  color: #d7b56d;
+  color: #F05454;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 24px;
@@ -109,7 +109,7 @@ img {
 .btn {
   display: inline-block;
   padding: 14px 34px;
-  background: #d7b56d;
+  background: #F05454;
   color: #fff;
   border-radius: 3px;
   font-weight: 700;
@@ -124,13 +124,13 @@ img {
 }
 
 .hero-points div {
-  border-left: 2px solid #d7b56d;
+  border-left: 2px solid #F05454;
   padding-left: 18px;
 }
 
 .hero-points strong {
   display: block;
-  color: #d7b56d;
+  color: #F05454;
   font-size: 18px;
 }
 
@@ -160,7 +160,7 @@ img {
   width: 34px;
   height: 2px;
   margin: 9px auto 0;
-  background: #d7b56d;
+  background: #F05454;
 }
 
 .about {
@@ -175,7 +175,7 @@ img {
 }
 
 .eyebrow {
-  color: #b99652;
+  color: #F05454;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -196,7 +196,7 @@ img {
 }
 
 .timeline {
-  border-left: 1px solid #d5c09a;
+  border-left: 1px solid #F05454;
   display: grid;
   gap: 22px;
   padding-left: 28px;
@@ -214,11 +214,11 @@ img {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #d7b56d;
+  background: #F05454;
 }
 
 .timeline b {
-  color: #b99652;
+  color: #F05454;
   display: block;
   font-size: 18px;
 }
@@ -240,7 +240,7 @@ img {
 
 .skill-grid article {
   padding: 24px 14px;
-  border-top: 2px solid #d7b56d;
+  border-top: 2px solid #F05454;
   background: #fff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.04);
 }
@@ -327,7 +327,7 @@ img {
 }
 
 .gallery {
-  background: #f7f5f0;
+  background: #fff;
 }
 
 .gallery-grid {
@@ -364,7 +364,7 @@ img {
 
 .contact-grid b {
   display: block;
-  color: #b99652;
+  color: #F05454;
 }
 
 .contact-grid span {
@@ -381,7 +381,7 @@ img {
 }
 
 .footer a {
-  color: #d7b56d;
+  color: #F05454;
   font-weight: 700;
 }
 
