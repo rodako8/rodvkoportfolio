@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>신현채의 포트폴리오</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
+  <!-- Progress Bar -->
+  <div id="progressBar"></div>
 
+  <!-- Header & Navigation -->
   <header class="header">
-    <div class="logo">
+    <a href="#home" class="logo">
       <span>RODVKO</span>
       <small>SHINHYUNCHAE</small>
-    </div>
+    </a>
 
     <nav class="nav">
       <a href="#home">HOME</a>
@@ -27,14 +29,17 @@
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-overlay">
       <div class="hero-text">
         <h1>RODVKO</h1>
         <p class="role">Design · Graphic · Communication</p>
-        <p class="copy">Beyond simple design,<br>
-        It gives special meaning,<br>
-        We design something that's worth it.</p>
+        <p class="copy">
+          Beyond simple design,<br>
+          It gives special meaning,<br>
+          We design something that's worth it.
+        </p>
         <a href="#about" class="btn">Read more</a>
       </div>
 
@@ -44,32 +49,35 @@
           <span>Photoshop, Illustrator</span>
         </div>
         <div>
-          <strong>3D Modelling</strong>
+          <strong>3D Modeling</strong>
           <span>Rhino, Blender</span>
         </div>
         <div>
           <strong>Video</strong>
-          <span>Premiere, After Effetcs</span>
+          <span>Premiere, After Effects</span>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- About Section -->
   <section id="about" class="section about">
     <div class="section-inner about-grid">
       <div>
         <p class="eyebrow">ABOUT ME</p>
         <h2>I AM</h2>
         <p>
-          I am a convergence designer who can do graphic design, 3D modeling, and video work.
-        </p>
-        <p>
-          It is a designer who breaks down the boundaries between painting and 3D and video.
+          Graphic Design<br>
+          3D Modeling<br>
+          Video Production<br>
+          <br>
+          I explore visual communication<br>
+          through various media.
         </p>
       </div>
 
       <div class="timeline">
-        <div><b>2006<b><span>Born in Busan</span></div>
+        <div><b>2006</b><span>Born in Busan</span></div>
         <div><b>2018</b><span>Graduation from Elementary School</span></div>
         <div><b>2021</b><span>Graduation from Middle School</span></div>
         <div><b>2024</b><span>Graduation from High School</span></div>
@@ -78,6 +86,7 @@
     </div>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills" class="section skills">
     <div class="section-inner">
       <h2>SKILLS</h2>
@@ -87,7 +96,7 @@
           <p>Photoshop, Illustrator<br>Visual Design</p>
         </article>
         <article>
-          <h3>3D Modelling</h3>
+          <h3>3D Modeling</h3>
           <p>Rhino, Blender<br>3D Design</p>
         </article>
         <article>
@@ -106,35 +115,37 @@
     </div>
   </section>
 
+  <!-- Activities Section -->
   <section id="activities" class="section dark activities">
     <div class="section-inner">
       <h2>ACTIVITIES</h2>
       <div class="card-grid">
         <article class="image-card">
-          <img src="images/activity1.png" alt="교육 활동">
+          <img src="images/activity1.png" alt="온지음">
           <div>
-            <h3>교육 활동</h3>
-            <p>학생들의 역량 강화를 위한 웹·디자인 교육</p>
+            <h3> 온지음</h3>
+            <p> RE Branding</p>
           </div>
         </article>
         <article class="image-card">
-          <img src="images/activity2.png" alt="지역 사회 활동">
+          <img src="images/activity2.png" alt="유연자적">
           <div>
-            <h3>지역 사회 활동</h3>
-            <p>주민과 함께하는 지역 발전과 청년 지원 활동</p>
+            <h3> 유연자적</h3>
+            <p> Building a personal brand</p>
           </div>
         </article>
         <article class="image-card">
-          <img src="images/activity3.png" alt="정치 활동">
+          <img src="images/activity3.png" alt="베리포레">
           <div>
-            <h3>정치 활동</h3>
-            <p>변화와 혁신을 위한 정책 연구와 정치 활동</p>
+            <h3> 베리포레</h3>
+            <p> Character Design</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects" class="section projects">
     <div class="section-inner">
       <h2>PROJECTS</h2>
@@ -158,26 +169,68 @@
     </div>
   </section>
 
-    <section id="gallery" class="gallery-board">
-      <div class="container">
-        <div class="filter-buttons">
-          <button type="button" class="active" data-filter="all">All</button>
-          <button type="button" data-filter="2D">2D</button>
-          <button type="button" data-filter="3D">3D</button>
-          <button type="button" data-filter="Video">Video</button>
-          <button type="button" data-filter="Addition">Addition</button>
-        </div>
-
-        <div id="galleryList" class="gallery-list"></div>
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-board">
+    <div class="container">
+      <div class="filter-buttons">
+        <button type="button" class="active" data-filter="all">All</button>
+        <button type="button" data-filter="2D">2D</button>
+        <button type="button" data-filter="3D">3D</button>
+        <button type="button" data-filter="Video">Video</button>
+        <button type="button" data-filter="Addition">Addition</button>
       </div>
-    </section>
+      <div id="galleryList" class="gallery-list"></div>
+    </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="section-inner">
+      <h2>CONTACT</h2>
+      <p>If you give me a chance, I can do it well.</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <b>Email</b>
+          <span>hcshin006217@naver.com</span>
+        </div>
+        <div class="contact-item">
+          <b>Github</b>
+          <span>https://github.com/rodako8</span>
+        </div>
+        <div class="contact-item">
+          <b>Location</b>
+          <span>SILLA UNIV Korea</span>
+        </div>
+        <div class="contact-item">
+          <b>Instagram</b>
+          <span>@tlsgusc0217</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Shin Hyunchae Portfolio. All Rights Reserved.</p>
+    <a href="#home" class="top-btn">TOP</a>
+  </footer>
+
+  <!-- Modal -->
   <div id="modal" class="modal" aria-hidden="true">
     <button type="button" id="modalClose" class="modal-close">×</button>
+
     <div class="modal-content">
       <img id="modalImage" src="" alt="">
+
       <div class="modal-text">
         <h3 id="modalTitle"></h3>
+
+        <div class="modal-meta">
+          <p id="modalRole"></p>
+          <p id="modalTools"></p>
+          <p id="modalContribution"></p>
+        </div>
+
         <p id="modalDesc"></p>
       </div>
     </div>
@@ -185,25 +238,6 @@
 
   <script src="js/gallery-data.js"></script>
   <script src="js/gallery.js"></script>
-  
-
-  <section id="contact" class="section contact">
-    <div class="section-inner">
-      <h2>CONTACT</h2>
-      <p>If you give me a chance, I can do it well.</p>
-      <div class="contact-grid">
-        <div><b>Email</b><span>hcshin006217@naver.com</span></div>
-        <div><b>Phone</b><span>010-6657-8821</span></div>
-        <div><b>Location</b><span>SILLA UNIV Korea</span></div>
-        <div><b>Website</b><span>https://rodvko41.github.io/portfolio/</span></div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <p>© 2026 Shin Hyunchae Portfolio. All Rights Reserved.</p>
-    <a href="#home">TOP</a>
-  </footer>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
