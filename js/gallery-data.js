@@ -66,7 +66,7 @@ const galleryData = [
     category:"2D",
     categoryName:"2D",
     date:"2026.06.05",
-    image:"images/gallery/photo05.jpg",
+    image:"images/gallery/photo05.png",
 
     role:"Poster Design",
     tools:"Photoshop, Illustrator",
